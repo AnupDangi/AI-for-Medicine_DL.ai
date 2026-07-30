@@ -13,12 +13,13 @@ AI-assisted medical diagnosis using 2D and 3D medical image data — multi-class
 - **Week 2 — Evaluating Models**: model evaluation metrics, ROC curve and threshold selection.
 - **Week 3 — Image Segmentation on MRI Images**: exploring 3D MRI data and labels, sub-section extraction, U-Net model for brain tumor segmentation.
 
-### Course 2: AI for Medical Prognosis
+### Course 2: AI for Medical Prognosis ✅
 Predicting patients' future health outcomes — linear and nonlinear risk models, decision trees, survival analysis.
 
-- Building risk scores, feature engineering for prognosis.
-- Decision trees and random forests for mortality prediction.
-- Survival estimation and time-to-event modeling (Kaplan-Meier, Cox proportional hazards).
+- **Week 1 — Linear Prognostic Models**: risk scores, logistic regression, feature interactions, C-index.
+- **Week 2 — Prognosis with Tree-based Models**: decision trees, random forests, missing data, imputation, SHAP.
+- **Week 3 — Survival Models and Time**: censoring, Kaplan-Meier survival estimates, log-rank test.
+- **Week 4 — Cox Models & Random Survival Forests**: hazard ratios, Harrell's C-index, RSF, permutation importance.
 
 ### Course 3: AI for Medical Treatment
 AI-driven treatment recommendations from individual patient health data.
@@ -34,8 +35,13 @@ Course1:AI-for-Medical-Diagnosis/
   Week1:Disease-Detection-with-Computer-Vision/
   Week2:EvaluatingModels/
   Week3:Image_Segmentation_on_MRI_Images/
-Course2:AI-for-Medical-Prognosis/   (in progress)
-Course3:AI-for-Medical-Treatment/   (in progress)
+Course2:AI-for-Medical-Prognosis/   (complete)
+  Week 1: Linear Prognostic Models/
+  Week 2: Prognosis with Tree-based Models/
+  Week 3: Survival Models and Time/
+  Week 4: Build a Risk Model Using Linear and Tree-based Models/
+Course3:AI-for-Medical-Treatment/   (in progress — Week 1 complete)
+  Week 1: Treatment Effect Estimation/
 ```
 
 Each week folder contains Jupyter notebooks: `Lab_*` notebooks are guided walkthroughs, `Assignment` notebooks are graded programming assignments.
