@@ -21,12 +21,12 @@ Predicting patients' future health outcomes — linear and nonlinear risk models
 - **Week 3 — Survival Models and Time**: censoring, Kaplan-Meier survival estimates, log-rank test.
 - **Week 4 — Cox Models & Random Survival Forests**: hazard ratios, Harrell's C-index, RSF, permutation importance.
 
-### Course 3: AI for Medical Treatment
+### Course 3: AI for Medical Treatment ✅
 AI-driven treatment recommendations from individual patient health data.
 
-- Treatment effect estimation from randomized control trial data.
-- Model interpretation (feature importance, Shapley values).
-- NLP for extracting information from radiology reports; question answering with BERT.
+- **Week 1 — Treatment Effect Estimation**: RCTs, odds ratios / ARR, C-for-benefit, T-Learner.
+- **Week 2 — Medical Question Answering**: label extraction, NegBio/CheXpert-style NLP, BERT QA.
+- **Week 3 — ML Interpretation**: Grad-CAM, permutation importance, SHAP.
 
 ## Repository Structure
 
@@ -40,8 +40,10 @@ Course2:AI-for-Medical-Prognosis/   (complete)
   Week 2: Prognosis with Tree-based Models/
   Week 3: Survival Models and Time/
   Week 4: Build a Risk Model Using Linear and Tree-based Models/
-Course3:AI-for-Medical-Treatment/   (in progress — Week 1 complete)
+Course3:AI-for-Medical-Treatment/   (complete)
   Week 1: Treatment Effect Estimation/
+  Week 2: Medical Question Answering/
+  Week 3: ML Interpretation/
 ```
 
 Each week folder contains Jupyter notebooks: `Lab_*` notebooks are guided walkthroughs, `Assignment` notebooks are graded programming assignments.

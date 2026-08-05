@@ -169,12 +169,17 @@ estimate individualized treatment effects.
 
 ---
 
-## Sources & further reading
+## Citations (Week 1)
+
+- [Levamisole and Fluorouracil background](https://www.nejm.org/doi/full/10.1056/NEJM199002083220602) — Moertel et al., *N Engl J Med*, 1990
+- [Data sourced from here](https://www.rdocumentation.org/packages/survival/versions/3.1-8/topics/colon) — `survival::colon` RCT dataset (R)
+- [C-statistic for benefit](https://www.ncbi.nlm.nih.gov/pubmed/29132832) — van Klaveren et al., *J Clin Epidemiol*, 2018
+- [T-learner](https://arxiv.org/pdf/1706.03461.pdf) — Künzel et al., meta-learners for CATE, 2019
+
+### Additional references
 
 - [AI for Medical Treatment — Course home](https://www.coursera.org/learn/ai-for-medical-treatment)
 - [Randomized controlled trial (Wikipedia)](https://en.wikipedia.org/wiki/Randomized_controlled_trial)
-- [Meta-learners for CATE — T/S/X-Learner (Künzel et al., 2019)](https://arxiv.org/abs/1706.03461)
-- [C-statistic-for-benefit (van Klaveren et al., 2018)](https://www.jclinepi.com/article/S0895-4356(17)30987-8/fulltext)
 - [Odds ratio (Wikipedia)](https://en.wikipedia.org/wiki/Odds_ratio)
 - [Absolute vs relative risk reduction](https://en.wikipedia.org/wiki/Absolute_risk_reduction)
 - [scikit-learn: LogisticRegression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
